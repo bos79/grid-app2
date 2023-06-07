@@ -105,7 +105,7 @@ const GridPage = (props) => {
         <table style= {tableStyle}  >
             <tbody >
             {
-            Array.from({ length: numRows }, (_, rowIndex) => (
+            Array.from({ length: numRows }, (_, rowIndex) => ( 
                 <tr key={rowIndex}>
                   {Array.from({ length: numCols }, (_, colIndex) => {
                     const isRed = cordinates.some(
